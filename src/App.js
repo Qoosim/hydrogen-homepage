@@ -4,6 +4,7 @@ import { VamcoCardImg } from "./components/vamco-card-img";
 import { AssetStrategies } from "./components/asset-strategies";
 import { PortfolioManagement } from "./components/portfolio-management";
 import { FeaturedNews } from "./components/featured-news";
+import { InvestorToday } from "./components/investor-today";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <AssetStrategies />
       <PortfolioManagement />
       <FeaturedNews />
+      <InvestorToday />
     </>
   );
 }
