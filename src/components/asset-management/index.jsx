@@ -10,10 +10,12 @@ export const AssetManagement = () => {
   return (
     <>
       <section className="relative w-full h-full font-dmSans pb-[10rem] bg-[#150E0E]">
-        {assetInvestmentData?.map((cardItem) => (
-          <AssetInvestmentCard key={cardItem.id} cardInfo={cardItem} />
-        ))}
-        <div className="px-32 grid grid-cols-3 gap-8">
+        <div className="w-full">
+          {assetInvestmentData?.map((cardItem) => (
+            <AssetInvestmentCard key={cardItem.id} cardInfo={cardItem} />
+          ))}
+        </div>
+        <div className="px-12 lg:px-32 grid grid-cols-3 gap-8">
           {investmentCardsData?.map((cardItem) => (
             <InvestmentCard key={cardItem.id} cardInfo={cardItem} />
           ))}

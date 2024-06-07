@@ -6,8 +6,8 @@ export const InvestorToday = () => {
     <>
       <section className="w-full h-full font-dmSans bg-[#130A0A] pb-[8rem]">
         <div className="px-14">
-          <div className="bg-[#d23637] py-[3rem] px-[10rem] flex flex-col items-center gap-6 rounded-xl">
-            <div className="flex flex-col items-center text-[#fff] font-medium text-[2.3rem] leading-[3rem]">
+          <div className="bg-[#d23637] py-[3rem] lg:px-[10rem] flex flex-col items-center gap-6 rounded-xl">
+            <div className="flex flex-col items-center text-[#fff] font-medium text-[1.8rem] lg:text-[2.3rem] leading-[3rem]">
               <span>Join the family of investors today!</span>
               <span>and let's build your finance together!</span>
             </div>

@@ -8,7 +8,7 @@ export const InvestmentCard = ({ cardInfo }) => {
       <h3 className={`${cardInfo.color === "red" ?  "text-[#c03233]" : "text-[#cecbcb]"} text-sm font-semibold`}>{cardInfo.title}</h3>
       <p className='text-[#817d7d] text-xs'>{cardInfo.text}</p>
       <button className='flex items-center gap-2 bg-[#342e2e] py-2 px-4 text-[#fff] text-sm rounded-lg mt-[1.5rem]'>
-        <span>Start Investing</span>
+        <span className="whitespace-nowrap">Start Investing</span>
         <img src={ArrowRight} alt="Arrow Right" />
       </button>
     </article>
