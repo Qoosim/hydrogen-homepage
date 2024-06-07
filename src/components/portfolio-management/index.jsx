@@ -7,7 +7,7 @@ import OrangeBoxArrow from "../../assets/orange-box-arrow.svg"
 export const PortfolioManagement = () => {
   return (
     <>
-      <section className="w-full h-full font-dmSans pb-[3rem] bg-[#130A0A]">
+      <section className="w-full h-full font-dmSans bg-[#130A0A]">
         <div className='flex justify-between gap-32 px-14'>
             <div className='flex-1 flex flex-col items-start gap-6 pt-[3rem]'>
                 <span className="text-[1.5rem] font-semibold text-[#e2d9d8]">Portfolio Management</span>

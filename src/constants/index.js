@@ -11,6 +11,8 @@ import StrategiesIcon1 from "../assets/strategies-icon-1.svg";
 import StrategiesIcon2 from "../assets/strategies-icon-2.svg";
 import StrategiesIcon3 from "../assets/strategies-icon-3.svg";
 
+import FeaturedNewsImage from "../assets/featured-news-img.svg"
+
 export const assetInvestmentData = [
   {
     id: 1,
@@ -89,3 +91,24 @@ export const strategiesCardData = [
      color: "white"
   },
 ];
+
+export const featuredNewsData = [
+  {
+    id: 1,
+    img: FeaturedNewsImage,
+    title: "We’re Building Your Financial Future",
+    text: "We understand that every investor is unique, with distinct financial goals and values. That's why we offer a range of investment strategies designed. We understand that every investor is unique, with distinct financial goals and values. That's why we offer a range of investment strategies designed to cater to your individual needs and preferences."
+  },
+  {
+    id: 2,
+    img: FeaturedNewsImage,
+    title: "We’re Building Your Financial Future",
+    text: "We understand that every investor is unique, with distinct financial goals and values. That's why we offer a range of investment strategies designed. We understand that every investor is unique, with distinct financial goals and values. That's why we offer a range of investment strategies designed to cater to your individual needs and preferences."
+  },
+  {
+    id: 3,
+    img: FeaturedNewsImage,
+    title: "We’re Building Your Financial Future",
+    text: "We understand that every investor is unique, with distinct financial goals and values. That's why we offer a range of investment strategies designed. We understand that every investor is unique, with distinct financial goals and values. That's why we offer a range of investment strategies designed to cater to your individual needs and preferences."
+  }
+]
