@@ -5,6 +5,8 @@ import { AssetStrategies } from "./components/asset-strategies";
 import { PortfolioManagement } from "./components/portfolio-management";
 import { FeaturedNews } from "./components/featured-news";
 import { InvestorToday } from "./components/investor-today";
+import { Footer } from "./features/footer";
+import ReliableWealth from "./components/reliable-wealth";
 
 function App() {
   return (
@@ -13,9 +15,11 @@ function App() {
       <AssetManagement />
       <VamcoCardImg />
       <AssetStrategies />
+      <ReliableWealth />
       <PortfolioManagement />
       <FeaturedNews />
       <InvestorToday />
+      <Footer />
     </>
   );
 }
