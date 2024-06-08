@@ -44,7 +44,7 @@ export const Headline = () => {
             </button>
           </div>
         </nav>
-        <div className="text-[2.5rem] lg:text-[3.7rem] mt-16 text-[#fff] font-semibold leading-tight px-14">
+        <div className="text-[2.5rem] lg:text-[3.75rem] mt-16 text-[#fff] font-semibold leading-[3.438rem] px-14">
           <h1>
             Building Wealth, Securing Futures:
             <br />
@@ -52,7 +52,7 @@ export const Headline = () => {
           </h1>
         </div>
         <div className="flex flex-col lg:flex-row justify-between items-center gap-5 pl-14">
-          <div className="flex flex-col gap-5 text-xs bg-[#35373c] w-[70%] lg:w-[48%] p-8 rounded-lg text-slate-300 tracking-wide leading-5 mt-[5rem] lg:mt-0">
+          <div className="flex flex-col gap-5 text-[0.875rem] bg-[#35373c] w-[70%] lg:w-[48%] p-8 rounded-lg text-slate-300 tracking-wide leading-[1.5rem] mt-[5rem] lg:-mt-4">
             <div>
               <p>
                 Valiente Asset Management Company (VAMCO) is an innovative,
