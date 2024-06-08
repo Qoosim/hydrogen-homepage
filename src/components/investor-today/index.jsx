@@ -4,7 +4,7 @@ import ArrowRightRed from "../../assets/arrow-right-red.svg";
 export const InvestorToday = () => {
   return (
     <>
-      <section className="w-full h-full font-dmSans bg-[#130A0A] pb-[8rem]">
+      <section className="w-full h-full font-dmSans bg-[#130A0A] pb-[10rem]">
         <div className="px-14">
           <div className="bg-gradient-to-r from-red-600 to-red-900 py-[4rem] lg:px-[7rem] flex flex-col items-center gap-7 rounded-3xl">
             <div className="flex flex-col items-center text-[#fff] font-medium text-[1.8rem] lg:text-[2.5rem] leading-[3rem]">

@@ -2,6 +2,7 @@ import React from "react";
 import ShadowLeftTop from "../../assets/shadow-left-top.svg";
 import ShadowLeftBelow from "../../assets/shadow-left-below.svg";
 import ShadowRight from "../../assets/shadow-right.svg";
+import ShadowBottom from "../../assets/shadow-bottom.svg"
 import { strategiesCardData, investmentStrategiesData } from "../../constants";
 import { InvestmentCard } from "../investment-card";
 import { AssetStrategiesCard } from "./_component/AssetStrategiesCard";
@@ -9,7 +10,7 @@ import { AssetStrategiesCard } from "./_component/AssetStrategiesCard";
 export const AssetStrategies = () => {
   return (
     <>
-      <section className="relative w-full h-full font-dmSans pb-[10rem] bg-[#150E0E]">
+      <section className="relative w-full h-full font-dmSans pb-[5rem] bg-[#150E0E]">
         {investmentStrategiesData?.map((cardItem) => (
           <AssetStrategiesCard key={cardItem.id} cardInfo={cardItem} />
         ))}
@@ -24,8 +25,8 @@ export const AssetStrategies = () => {
           alt="Shadow Left Top"
         />
         <img
-          src={ShadowLeftBelow}
-          className="size-[17rem] absolute left-0 bottom-[5rem]"
+          src={ShadowBottom}
+          className="size-[24rem] absolute left-[3rem] -bottom-[7rem]"
           alt="Shadow Left Below"
         />
         <img
