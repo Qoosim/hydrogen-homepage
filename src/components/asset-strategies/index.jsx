@@ -1,6 +1,5 @@
 import React from "react";
 import ShadowLeftTop from "../../assets/shadow-left-top.svg";
-import ShadowLeftBelow from "../../assets/shadow-left-below.svg";
 import ShadowRight from "../../assets/shadow-right.svg";
 import ShadowBottom from "../../assets/shadow-bottom.svg"
 import { strategiesCardData, investmentStrategiesData } from "../../constants";
