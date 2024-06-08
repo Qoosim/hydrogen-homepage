@@ -13,7 +13,7 @@ export const AssetStrategies = () => {
         {investmentStrategiesData?.map((cardItem) => (
           <AssetStrategiesCard key={cardItem.id} cardInfo={cardItem} />
         ))}
-        <div className="px-10 lg:px-32 grid grid-cols-3 gap-8">
+        <div className="px-10 lg:px-24 grid grid-cols-3 gap-8">
           {strategiesCardData?.map((cardItem) => (
             <InvestmentCard key={cardItem.id} cardInfo={cardItem} />
           ))}

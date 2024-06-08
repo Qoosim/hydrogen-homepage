@@ -6,25 +6,25 @@ export const InvestorToday = () => {
     <>
       <section className="w-full h-full font-dmSans bg-[#130A0A] pb-[8rem]">
         <div className="px-14">
-          <div className="bg-[#d23637] py-[3rem] lg:px-[10rem] flex flex-col items-center gap-6 rounded-xl">
-            <div className="flex flex-col items-center text-[#fff] font-medium text-[1.8rem] lg:text-[2.3rem] leading-[3rem]">
+          <div className="bg-gradient-to-r from-red-600 to-red-900 py-[4rem] lg:px-[7rem] flex flex-col items-center gap-7 rounded-3xl">
+            <div className="flex flex-col items-center text-[#fff] font-medium text-[1.8rem] lg:text-[2.5rem] leading-[3rem]">
               <span>Join the family of investors today!</span>
               <span>and let's build your finance together!</span>
             </div>
-            <p className="text-[#fff] text-sm text-center">
+            <p className="text-[#fff] text-[1rem] text-center">
               Embark on your journey to financial success by signing up with
               VAMCO today. Our team is dedicated to guiding you every step of
               the way as you build a secure and prosperous future.{" "}
             </p>
-            <div className="flex items-center gap-5 mt-[0.5rem]">
+            <div className="flex justify-center space-x-5 mt-[0.5rem]">
               <button
                 type="button"
-                className="flex items-center gap-1 bg-white py-1.5 px-4 rounded-md"
+                className="flex justify-center items-center gap-1 bg-white py-1.5 px-4 rounded-[0.25rem]"
               >
-                <span className="text-[#d23637] text-sm">Start Investing</span>
+                <span className="text-red-600 text-sm">Start Investing</span>
                 <img src={ArrowRightRed} alt="Arrow Right Red" />
               </button>
-              <button type="button" className="text-slate-100 text-sm outline outline-1 py-1.5 px-6 rounded-md">
+              <button type="button" className="flex justify-center items-center text-slate-100 text-sm outline outline-1 py-1.5 px-5 rounded-[0.25rem]">
                 Chat With Us
               </button>
             </div>

@@ -15,7 +15,7 @@ export const AssetManagement = () => {
             <AssetInvestmentCard key={cardItem.id} cardInfo={cardItem} />
           ))}
         </div>
-        <div className="px-12 lg:px-32 grid grid-cols-3 gap-8">
+        <div className="px-12 lg:px-24 grid grid-cols-3 gap-8">
           {investmentCardsData?.map((cardItem) => (
             <InvestmentCard key={cardItem.id} cardInfo={cardItem} />
           ))}

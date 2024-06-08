@@ -20,7 +20,7 @@ export const VamcoCardImg = () => {
           <div className="flex flex-col items-start justify-between">
             <img src={VamcomCardIcon} alt="Vamco Small Logo" />
             <div className="flex flex-col items-start gap-2">
-              <p className="text-[#d3c8c9] text-xs lg:text-base">
+              <p className="text-[#d3c8c9] text-xs lg:text-[1.125rem] leading-[1.75rem]">
                 VAMCO offers a wide range of investment solutions across asset
                 classes including cash, fixed income and equities on both a
                 pooled and segregated basis. We oversee and manage the assets of
@@ -28,7 +28,7 @@ export const VamcoCardImg = () => {
                 organizations.{" "}
               </p>
               <button typeof="button" className="flex items-center gap-2 text-[#d3c8c9]">
-                <span className="text-xs lg:text-base">Learn More</span>
+                <span className="text-xs lg:text-[1rem]">Learn More</span>
                 <img src={ArrowRight} alt="Arrow Right" />
               </button>
             </div>

@@ -9,10 +9,10 @@ export const AssetStrategiesCard = ({ cardInfo }) => {
             <img src={cardInfo.squareLeftImg} alt="Square Cross Logo" />
           </div>
           <div className="flex flex-col items-center gap-3 w-[50%]">
-            <span className="text-[#646160] text-[0.8rem] lg:text-[0.9rem] uppercase">
+            <span className="text-[#646160] text-[0.8rem] lg:text-[1rem] uppercase">
               {cardInfo.assetTitleTop}
             </span>
-            <span className="text-[#f0f1f0] text-[1.2rem] lg:text-[1.8rem]">
+            <span className="text-[#f0f1f0] text-[1.2rem] lg:text-[2rem]">
               {cardInfo.assetTitleBelow}
             </span>
           </div>
@@ -32,10 +32,10 @@ export const AssetStrategiesCard = ({ cardInfo }) => {
             </div>
             <div className="">
               <div className="w-[80%] lg:w-[70%]">
-                <p className="text-[#f0f1f0] text-[1.2rem]">
+                <p className="text-[#f0f1f0] text-[1.25rem]">
                   {cardInfo.transCardTopText}
                 </p>
-                <p className="text-[#848181] text-[0.8rem]">
+                <p className="text-[#848181] text-[0.875rem]">
                   {cardInfo.transCardBottomText}
                 </p>
               </div>
