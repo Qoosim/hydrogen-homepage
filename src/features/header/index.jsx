@@ -24,7 +24,7 @@ export const Headline = () => {
           <a href="/">
             <img src={Logo} alt="Valiente Logo" className="" />
           </a>
-          <ul className="flex items-center gap-5 lg:gap-8 text-sm lg:text-lg text-[#fff]">
+          <ul className="flex items-center gap-5 lg:gap-8 text-sm lg:text-[1rem] leading-[3.838rem] text-[#fff]">
             <li className="whitespace-nowrap cursor-pointer">About Us</li>
             <li className="whitespace-nowrap cursor-pointer">Products</li>
             <li className="whitespace-nowrap cursor-pointer">Why VAMCO</li>
@@ -33,26 +33,26 @@ export const Headline = () => {
             <li className="whitespace-nowrap cursor-pointer">Contact Us</li>
           </ul>
           <div className="flex items-center justify-center gap-6">
-            <button className="outline outline-1 outline-red-600 text-red-500 py-1 px-5 lg:py-1.5 lg:px-7 text-sm lg:text-base rounded-md whitespace-nowrap">
+            <button className="outline outline-1 outline-red-600 text-red-500 py-1 px-5 lg:py-1.5 lg:px-7 text-sm lg:text-[1rem] rounded-md whitespace-nowrap">
               Login
             </button>
             <button
               type="button"
-              className="flex justify-center items-center bg-red-500 text-white font-normal py-1 px-2 lg:py-1.5 lg:px-2.5 text-sm lg:text-base rounded-md whitespace-nowrap"
+              className="flex justify-center items-center bg-red-500 text-white font-normal py-1 px-2 lg:py-1.5 lg:px-2.5 text-sm lg:text-[1rem] rounded-md whitespace-nowrap"
             >
               Create Account
             </button>
           </div>
         </nav>
-        <div className="text-[2.5rem] lg:text-[3.75rem] mt-16 text-[#fff] font-semibold leading-[3.438rem] px-14">
+        <div className="text-[2.5rem] lg:text-[3.75rem] mt-16 mb-5 text-[#fff] font-semibold leading-[3.838rem] px-14">
           <h1>
             Building Wealth, Securing Futures:
             <br />
             Companion Through Life
           </h1>
         </div>
-        <div className="flex flex-col lg:flex-row justify-between items-center gap-5 pl-14">
-          <div className="flex flex-col gap-5 text-[0.875rem] bg-[#35373c] w-[70%] lg:w-[48%] p-8 rounded-lg text-slate-300 tracking-wide leading-[1.5rem] mt-[5rem] lg:-mt-4">
+        <div className="flex flex-col lg:flex-row justify-between items-center gap-7 pl-14">
+          <div className="flex flex-col gap-5 text-[0.875rem] bg-[#35373c] w-[70%] lg:w-[58.7%] p-8 rounded-lg text-slate-300 tracking-wide leading-[1.5rem] mt-[5rem] lg:-mt-1">
             <div>
               <p>
                 Valiente Asset Management Company (VAMCO) is an innovative,
