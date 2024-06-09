@@ -3,7 +3,7 @@ import ArrowRight from "../../assets/arrow-right.svg";
 
 export const InvestmentCard = ({ cardInfo }) => {
   return (
-    <article className="bg-[#2a2021] p-4 rounded-xl flex flex-col justify-between gap-10 h-full">
+    <article className="bg-[#2a2021] p-4 rounded-xl flex flex-col justify-between gap-10 h-full z-50">
       <div className="flex flex-col items-start gap-3">
         <img src={cardInfo.logo} alt="Card Logo" />
         <h3
