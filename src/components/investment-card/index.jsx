@@ -15,7 +15,7 @@ export const InvestmentCard = ({ cardInfo }) => {
         </h3>
         <p className="text-[#817d7d] text-[0.875rem]">{cardInfo.text}</p>
       </div>
-      <button className="w-fit flex justify-center items-center gap-1 bg-[#342e2e] py-2 px-4 text-[#fff] text-[1rem] rounded-[0.25rem] mt-auto">
+      <button className="w-fit flex justify-center items-center gap-1 bg-[#342e2e] py-2 px-4 text-[#fff] text-[1rem] rounded-[0.25rem] mt-auto cursor-pointer">
         <span className="whitespace-nowrap">Start Investing</span>
         <img src={ArrowRight} alt="Arrow Right" />
       </button>
